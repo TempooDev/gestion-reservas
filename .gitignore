@@ -1,0 +1,60 @@
+# Specific project structure
+src/**/bin/
+src/**/obj/
+src/**/*.dll
+src/**/*.pdb
+# .NET Core
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# User-specific files
+*.rsuser
+*.dbmdl
+*.jfm
+
+# Angular specific
+src/**/dist/
+src/**/node_modules/
+src/**/.angular/cache
+src/**/*.log
+src/**/npm-debug.log*
+src/**/yarn-debug.log*
+src/**/yarn-error.log*
