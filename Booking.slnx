@@ -7,7 +7,7 @@
     <Project Path="src/Aspire/ServiceDefaults/ServiceDefaults.csproj" />
   </Folder>
   <Folder Name="/src/Booking/">
-    <Project Path="src/Booking/API/API.csproj" />
+    <Project Path="src/Booking/API/Booking.API.csproj" />
     <Project Path="src/Booking/Application/Application.csproj" />
     <Project Path="src/Booking/Domain/Domain.csproj" />
     <Project Path="src/Booking/Infrastructure/Infrastructure.csproj" />

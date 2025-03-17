@@ -1,5 +1,6 @@
+using Projects;
 var builder = DistributedApplication.CreateBuilder(args);
-var api = builder.AddProject<Projects.API>("Booking API");
+var api = builder.AddProject<Booking_API>("Booking");
 
 
 builder

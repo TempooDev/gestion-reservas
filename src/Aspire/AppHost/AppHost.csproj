@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../Booking/API/API.csproj" Name="Booking_API" />
+    <ProjectReference Include="../../Booking/API/Booking.API.csproj" />
   </ItemGroup>
 
   <Target Name="RestoreNpm" BeforeTargets="Build" Condition=" '$(DesignTimeBuild)' != 'true' ">
